@@ -21,7 +21,21 @@ Some of the Uses of Javascripts are :
 2.What is the difference between client-side and server-side?
 
 Ans:
-The main difference between server-side scripting and client-side scripting is that the server side scripting involves server for its processing. On the other hand, client-side scripting requires browsers to run the scripts on the client machine but does not interact with the server while processing the client-side scripts.As we know that the web works in a client-server environment. The client-side script executes the code to the client side which is visible to the users while a server-side script is executed in the server end which users cannot see.
+The main difference between server-side scripting and client-side scripting is that the server side scripting involves server for its processing.
+On the other hand, client-side scripting requires browsers to run the scripts on the client machine but does not interact with the server while processing the client-side scripts.As we know that the web works in a client-server environment.
+The client-side script executes the code to the client side which is visible to the users while a server-side script is executed in the server end which users cannot see.
 
-When a server-side script is processed it communicates to the server. As against, client-side scripting does not need any server interaction.The client-side scripting language involves languages such as HTML, CSS and JavaScript. In contrast, programming languages such as PHP, ASP.net, Ruby, ColdFusion, Python, C#, Java, C++, etc.
+When a server-side script is processed it communicates to the server. As against, client-side scripting does not need any server interaction.
+The client-side scripting language involves languages such as HTML, CSS and JavaScript. 
+In contrast, programming languages such as PHP, ASP.net, Ruby, ColdFusion, Python, C#, Java, C++, etc.
 Server-side scripting is more secure than client-side scripting as the server side scripts are usually hidden from the client end, while a client-side script is visible to the users.
+
+
+3.What is Node js ?
+
+Ans:
+Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications.
+Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications.
+Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
+Node.js = Runtime Environment + JavaScript Library
