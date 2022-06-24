@@ -39,3 +39,51 @@ Node.js uses an event-driven, non-blocking I/O model that makes it lightweight a
 Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications.
 Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
 Node.js = Runtime Environment + JavaScript Library
+
+4.What is Scope in javascript
+
+Ans:
+Scope in JavaScript defines accessibility of variables, objects and functions.
+There are two types of scope in JavaScript.
+
+1.Global scope
+2.Local scope
+
+1 .Global Scope
+Variables defined outside any function, block, or module scope have global scope. Variables in global scope can be accessed from everywhere in the application.
+<script>
+
+    var userName = "Bill";
+
+    function modifyUserName() {
+            userName = "Steve";
+        };
+         function showUserName() {
+            alert(userName);
+        };
+
+    alert(userName); // display Bill
+    
+    modifyUserName();
+    showUserName();// display Steve
+</script>
+
+
+2.Local Scope
+
+Variables declared inside any function with var keyword are called local variables. Local variables cannot be accessed or modified outside the function declaration.
+
+<script>
+    
+    function createUserName() {
+        var userName = "Bill";
+    }
+
+    function showUserName() {
+        alert(userName);
+    }
+
+    createUserName();
+    showUserName(); // throws error: userName is not defined
+
+</script>
