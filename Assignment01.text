@@ -102,3 +102,11 @@ javascript is synchronous Programming language.As Javascript runs Code Line by L
 Ans:
 Javascript is Single-Threaded ,things like HTTP requests might work in different threads behind the scenes, but when your Javascript code is executed it can only happen from one thread at a time. 
 JavaScript is single threaded.
+
+
+7.Explain DOM in your own word.
+
+Ans :
+
+DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from the document.
+We can also add events to these elements to make our page more dynamic.
