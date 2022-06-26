@@ -87,3 +87,18 @@ Variables declared inside any function with var keyword are called local variabl
     showUserName(); // throws error: userName is not defined
 
 </script>
+
+
+
+5. JavaScript is asynchronous or synchronous.
+
+Ans:
+javascript is synchronous Programming language.As Javascript runs Code Line by Line.
+
+
+6. JavaScript is Single-threaded or Multi-threaded.
+
+
+Ans:
+Javascript is Single-Threaded ,things like HTTP requests might work in different threads behind the scenes, but when your Javascript code is executed it can only happen from one thread at a time. 
+JavaScript is single threaded.
